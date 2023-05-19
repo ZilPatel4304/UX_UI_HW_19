@@ -69,13 +69,3 @@ $(document).ready(function() {
     });
   });
 
-  $(document).ready(function() {
-    $(".workcard").hover(
-      function() {
-        $(this).find(".workcard img").stop().fadeTo(300, 1); // Duration in milliseconds
-      },
-      function() {
-        $(this).find(".workcard img").stop().fadeTo(300, 0); // Duration in milliseconds
-      }
-    );
-  });
